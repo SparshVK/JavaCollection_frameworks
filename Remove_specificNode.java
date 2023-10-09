@@ -80,13 +80,31 @@ class Remove_specificNode
       }
 
       public static void main(String[] args){   
+          Remove_specificNode o = new Remove_specificNode();
         Scanner sc = new Scanner(System.in);
 
         // Delete all nodes which have values greater than 25.
         System.out.print("Enter the value to delete the nodes greater"); 
         int val = sc.nextInt();
 
-         Remove_specificNode o = new Remove_specificNode();
+         // Taking input from user
+    // System.out.println("Enter the number of elements");
+    // int n = sc.nextInt();
+    // System.out.println("Enter the elements");
+    // for(int i=0; i<n; i++)
+    // {
+    //     int s = sc.nextInt();
+    //     o.add(s);
+    // }
+    // o.printList();
+//----------------------------------------------------------------
+
+    // Searching for an element in the Linked_List
+
+    // System.out.println("Enter the element to be searched");
+    // String s = sc.next();
+    // o.search(s);
+
          o.add(1);
          o.add(5);
          o.add(7);
